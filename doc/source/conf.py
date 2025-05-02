@@ -39,6 +39,7 @@ otcdocs_doc_type = ''
 otcdocs_service_category = 'security-services'
 otcdocs_service_title = 'Dedicated Web Application Firewall'
 otcdocs_service_type = 'wafd'
+otcdocs_cloud_environment = 'swiss'
 otcdocs_search_environment = 'hc_swiss'
 otcdocs_search_index = 'search_index_swiss'
 otcdocs_search_url = "https://opensearch.eco.tsi-dev.otc-service.com/"
@@ -91,6 +92,7 @@ html_theme = 'otcdocs'
 # further. For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
+    "logo_url": "https://docs.sc.otc.t-systems.com",
 }
 
 # The name for this set of Sphinx documents.  If None, it defaults to
